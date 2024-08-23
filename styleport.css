@@ -1,0 +1,278 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+#home{
+    text-align: center;
+    
+}
+
+#image{
+    width: 50%;
+    float: left;
+    top: 180px;
+    padding-right:40% ; 
+    position: absolute;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 35px 0;
+}
+nav ul {
+    padding: 10px 0;
+    margin-right: 3%;
+    background-color: #333;
+    text-align: center;
+    font-family: Fjalla One;
+    font-size: 35px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+.summ{
+   font-family: Quantico;
+   font-size: 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 0 20px;
+    
+}
+#para{
+    font-family: Audrey;
+    font-size: 80px;
+    margin-top: 15%;
+    padding-bottom: 15%;
+    margin-left: 45%;
+    text-align: center;
+    
+}
+h2 {
+    font-family: Audrey;
+    font-size: 40px;
+    background-position: center;
+    background-size: cover;
+    background-color: #555;
+    padding: 1%;
+    margin-top: 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 98%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    top: 0%;
+    float: right;
+    text-align: right;
+}
+
+form label {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 21px;
+    font-family: Audrey;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+#contact{
+    margin-bottom: 15%;
+    padding-bottom: 15%;
+}
+
+#contact-form{
+    float: left;
+    width: 30%;
+    top: 0;
+}
+
+.html{
+    font-family: Fjalla One;
+    font-size: 35px;
+    margin-right: 3px;
+    padding-top: 10px;
+}
+
+.css{
+    font-family: Fjalla One;
+    font-size: 35px;
+    padding-top: 100px;
+    float: left;
+} 
+
+.c{
+    font-family: Fjalla One;
+    font-size: 35px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.java {
+    font-family: Fjalla One;
+    font-size: 35px;
+    padding-top: 100px;
+    text-align: right;
+    padding-right: 100px;
+
+}
+.php{
+    font-family: Fjalla One;
+    font-size: 35px;
+    padding-right: 30px;
+    
+
+}
+
+.sql{
+    font-family: Fjalla One;
+    font-size: 35px;
+    padding-left: 1px;
+} 
+
+.icon1{
+     float: left;
+     padding-left: 90px;
+     
+     
+}
+.icon2{
+      float: left;
+      
+      padding-left: 13%;
+      
+        
+}
+.icon3{
+     float: left;
+     padding-left: 150px;
+     
+}
+.icon4{
+     float: left;
+     padding-left: 10%;
+     padding-top: 150px;
+}
+.icon5{
+     float: left;
+     padding-left: 10%;
+     padding-top: 150px;
+}
+.icon6{
+     float: left;
+     padding-left: 70px;
+     padding-top: 150px;
+}
+.Skill{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Skill div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.instagram{
+    padding-left: 35%;
+    float: center;
+    top: 20px;
+    background-color: #333;
+    margin-top: 4%;
+    display: inline;
+}
+ .linkedin, .X{
+    padding-left: 90px;
+    float: center;
+    top: 20px;
+    background-color: #333;
+    margin-top: 4%;
+    display: inline;
+   
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px; 
+    text-align: center;  
+}
+footer{
+    background-color: #333;
+    padding:20px;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+h5{
+    font-family:'Times New Roman';
+    font-size: 30px;
+    padding-right: 80px;
+}
+.about{
+    padding-left: 30px;
+    font-family: Fjalla One;
+    font-size: 35px;
+    padding: 20px;
+}
+#Social{
+    align-items: center;
+    top: 10px;
+    background-color: #333;
+    display: flex;
+    margin-bottom: 5%;
+}
+.f1{
+    text-align: center;
+    font-family: Fjalla One;
+    font-size: 30px;
+}
