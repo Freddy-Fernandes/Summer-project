@@ -25,40 +25,61 @@ header {
     padding-right:40% ; 
     position: absolute;
 }
-
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    padding: 35px 0;
-}
-nav ul {
+/* Basic Navbar Styling */
+nav {
+    background-color: #333; /* Dark background */
     padding: 10px 0;
-    margin-right: 3%;
-    background-color: #333;
-    text-align: center;
-    font-family: Fjalla One;
-    font-size: 35px;
-    position: fixed;
-    width: 100%;
+    position: fixed; /* Fixes the navbar to the top */
+    top: 0; /* Align it at the top */
+    left: 50%; /* Align the nav horizontally */
+    transform: translateX(-50%); /* Center it by shifting it left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensures the navbar is above all other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for effect */
+}
+
+/* Center and style the navigation links */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the links */
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
-
-.summ{
-   font-family: Quantico;
-   font-size: 25px;
-}
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
+nav ul li a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px; /* Optional: rounded edges on hover */
+}
+
+/* Prevent content from hiding behind the fixed navbar */
+body {
+    padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+/* Responsive Navbar for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
 section {
     padding: 0 20px;
     
@@ -109,8 +130,8 @@ form input {
 
 button {
     padding: 10px;
-    padding-bottom: 20px;
-    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
     background-color: #333;
     color: white;
     border: none;
@@ -128,7 +149,7 @@ button:hover {
 #contact-form{
     float: left;
     width: 30%;
-    top: 0;
+    top: 0%;
 }
 
 .html{
